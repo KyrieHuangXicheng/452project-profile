@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav li {
+            margin-right: 1rem;
+        }
+
+        nav a {
+            color: white; 
+        }
+
+        main {
+            max-width: 960px;
+            margin: 0 auto;
+        }
+
+        .product-card {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+            align-items: center;
+            padding: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            .product-card {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .product-card__item {
+            border: 1px solid #ccc;
+            padding: 1rem;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .product-card__image {
+            width: .png" alt="Product Image"> 100%;
+            height: auto;
+        }
+
+        .product-card__description {
+            margin-top: 1rem;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">homepage</a></li>
+                <li><a href="452support.html">support</a></li>
+                <li><a href="452product.html">product</a></li>
+                <li><a href="452about us.html">about us</a></li>
+                <li><a href="452blog.html">blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="product-card">
+            <div class="product-card__item">
+                <img class="product-card__image" src="屏幕截图 2024-11-26 150918.png">
+            </div>
+            
+        </div>
+    </main>
+
+    <footer>
+        Copyright © 2024 Kyrie Inc.
+        <br>
+        email : 1270087049@qq.com
+        <br>
+        phone : 13353396129
+    </footer>
+</body>
+</html>
