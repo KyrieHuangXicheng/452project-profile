@@ -20,6 +20,12 @@ header {
     text-align: center;
 }
 
+.logo {
+    width: 100px; 
+    height: auto;
+    margin-left: 1rem; 
+}
+
 nav ul {
     list-style-type: none;
     display: flex;
