@@ -1,4 +1,4 @@
-/* General styles */
+/*Kyrie Huang Xicheng*/
 html, body {
     height: 100%;
     margin: 0;
@@ -108,7 +108,7 @@ img {
 }
 
 .product-card__image {
-    width: 100%; /* 默认情况下占满整个父元素 */
+    width: 100%; 
     max-width: 120%; 
     height: auto; 
 }
@@ -116,9 +116,9 @@ img {
 
 @media (min-width: 768px) {
     .product-card__image {
-        width: 200%; /* 在中等及以上屏幕尺寸下，使图片稍微超出父元素的宽度 */
-        max-width: none; /* 取消最大宽度限制 */
-        margin-left: -10%; /* 调整左右边距，使图片居中 */
+        width: 200%; 
+        max-width: none; 
+        margin-left: -10%;
         margin-right: -10%;
     }
 }
